@@ -3,6 +3,7 @@ import { MessageCircle,Phone} from 'lucide-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Services from "./Services";
+import heroimg from "../assests/hero.png";
 
 const Hero = () => {
   useEffect(() => {
@@ -17,7 +18,7 @@ const Hero = () => {
 
   // Pro-Tip: Setting the background image in a style object ensures it hits the Public folder correctly
   const heroBg = {
-    backgroundImage: `url('./assests/hero.png')`,
+    backgroundImage: `url('${heroimg}')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat'
@@ -48,12 +49,12 @@ const Hero = () => {
 
           <div className="d-flex flex-wrap justify-content-center gap-4 mt-5">
             <button className="btn-glass-blue">
-               <Phone size={15} className="ms-2" /> <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}> CALL US</a>
+               <Phone size={15} className="ms-2" /> <a href="tel:+919977707007" style={{ textDecoration: 'none', color: 'inherit' }}> CALL US</a>
             </button>
             
             <button className="btn-glow-orange">
               <MessageCircle size={20} className="me-2" />
-              <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}> GET WHATSAPP QUOTE</a>
+              <a href="https://wa.me/919977707007" style={{ textDecoration: 'none', color: 'inherit' }}> GET WHATSAPP QUOTE</a>
              
             </button>
           </div>

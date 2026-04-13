@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { ArrowRight, Zap } from 'lucide-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import  heroimg from "../assests/h2.png";
 const Portfolio = () => {
   const [filter, setFilter] = useState('All');
 
@@ -72,7 +72,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio-page">
       {/* --- HERO SECTION --- */}
-      <section className="portfolio-hero" style={{ backgroundImage: `url('./assests/h2.png')` }}>
+      <section className="portfolio-hero" style={{ backgroundImage: `url('${heroimg}')` }}>
         <div className="portfolio-hero-overlay"></div>
         <div className="container position-relative z-index-2 pt-5">
           <div className="badge-premium mb-3" data-aos="fade-down">

@@ -44,11 +44,11 @@ const Footer = () => {
             <div className="col-lg-3 border-end-custom">
               <div className="d-flex align-items-center gap-2 mb-2">
                 <MapPin size={16} className="text-muted-hifi" />
-                <span className="info-text">Indore, Madhys. Pradesh</span>
+                <span className="info-text">Indore, Madhya Pradesh</span>
               </div>
               <div className="d-flex align-items-center gap-2">
                 <Mail size={16} className="text-muted-hifi" />
-                <span className="info-text">info@soundbeats.in</span>
+                <span className="info-text">Soundbeats.indore@gmail.com</span>
               </div>
             </div>
 
@@ -56,11 +56,11 @@ const Footer = () => {
             <div className="col-lg-3 border-end-custom text-lg-center">
               <div className="d-flex align-items-center justify-content-lg-center gap-2">
                 <Phone size={16} className="text-muted-hifi" />
-                <span className="info-text">+91 XXXXX XXXXX</span>
+                <span className="info-text">+919977707007</span>
               </div>
               <div className="d-flex align-items-center justify-content-lg-center gap-2 mt-2">
                 <Phone size={16} className="text-muted-hifi" />
-                <span className="info-text">+92XXX XXXXX</span>
+                <span className="info-text">+919977707007</span>
               </div>
             </div>
 
@@ -71,11 +71,11 @@ const Footer = () => {
             <div className="col-lg-3 text-lg-end">
               <div className="d-flex align-items-center justify-content-lg-end gap-2 mb-2">
                 <Phone size={16} className="text-muted-hifi" />
-                <span className="info-text">+91 XXXXX XXXXX</span>
+                <span className="info-text">+919977707007</span>
               </div>
               <div className="d-flex align-items-center justify-content-lg-end gap-2">
                 <Mail size={16} className="text-muted-hifi" />
-                <span className="info-text">info@soundbeats.in</span>
+                <span className="info-text">Soundbeats.indore@gmail.com</span>
               </div>
             </div>
 

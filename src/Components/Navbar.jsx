@@ -57,10 +57,10 @@ const Navbar = () => {
             <li className="nav-item ms-lg-3 d-flex gap-2 mt-3 mt-lg-0">
               <button className="btn call-btn shadow-sm">
                 <Phone size={16} className="me-2" />
-                <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}> CALL NOW</a>
+                <a href="tel:+919977707007" style={{ textDecoration: 'none', color: 'inherit' }}> CALL NOW</a>
               </button>
               <button className="btn quote-btn shadow-sm">
-               <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}> GET QUOTE</a>
+               <a href="https://wa.me/919977707007" style={{ textDecoration: 'none', color: 'inherit' }}> GET QUOTE</a>
               </button>
             </li>
           </ul>

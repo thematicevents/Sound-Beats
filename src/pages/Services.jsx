@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { ArrowRight, Music, Lightbulb, TowerControl as Rigging } from 'lucide-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import  heroimg from "../assests/h2.png";
 const Services = () => {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
@@ -54,7 +54,7 @@ const Services = () => {
   return (
     <div className="services-page">
       {/* --- HERO SECTION --- */}
-      <section className="services-hero" style={{ backgroundImage: `url('./assests/h2.png')`, }}>
+      <section className="services-hero" style={{ backgroundImage: `url('${heroimg}')`, }}>
         <div className="services-hero-overlay"></div>
         <div className="container position-relative z-index-2 pt-5">
           <h1 className="display-4 fw-bold text-navy" data-aos="fade-right">

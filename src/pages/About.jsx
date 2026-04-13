@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { CheckCircle, ArrowRight } from 'lucide-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import  heroimg from "../assests/h2.png";
 
 const About = () => {
   useEffect(() => {
@@ -13,7 +14,7 @@ const About = () => {
     <div className="about-page-container" >
       
       {/* --- HERO SECTION --- */}
-      <section className="about-hero-section" style={{ backgroundImage: `url('./assests/h2.png')` }}>
+      <section className="about-hero-section" style={{ backgroundImage: `url('${heroimg}')` }}>
         <div className="about-hero-overlay"></div>
         <div className="container position-relative z-index-2 py-5">
           <div className="row align-items-center" style={{ minHeight: '400px' }}>
