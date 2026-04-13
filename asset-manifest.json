@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sound-Beats/static/css/main.396d6f07.css",
+    "main.js": "/Sound-Beats/static/js/main.5237bfae.js",
+    "static/js/453.66c8b802.chunk.js": "/Sound-Beats/static/js/453.66c8b802.chunk.js",
+    "index.html": "/Sound-Beats/index.html",
+    "main.396d6f07.css.map": "/Sound-Beats/static/css/main.396d6f07.css.map",
+    "main.5237bfae.js.map": "/Sound-Beats/static/js/main.5237bfae.js.map",
+    "453.66c8b802.chunk.js.map": "/Sound-Beats/static/js/453.66c8b802.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.396d6f07.css",
+    "static/js/main.5237bfae.js"
+  ]
+}
