@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="container">
         
         {/* Brand Logo & Tagline - Matches Footer/About Ref */}
-        <Link className="navbar-brand d-flex flex-column" to="/" style={{ textDecoration: 'none' }}>
+        <Link className="navbar-brand d-flex flex-column" to="/Sound-Beats" style={{ textDecoration: 'none' }}>
           <div className="d-flex align-items-center">
             <span style={{ fontSize: '24px', fontWeight: '800', color: '#1a2a6c', letterSpacing: '1px' }}>SOUND</span>
             <span style={{ fontSize: '24px', fontWeight: '800', color: '#e67e22' }}>BEATS</span>
@@ -33,7 +33,7 @@ const Navbar = () => {
             
             {/* NavLink adds an 'active' class automatically when on that page */}
             <li className="nav-item">
-              <NavLink className={({ isActive }) => `nav-link px-3 fw-semibold ${isActive ? 'text-orange' : 'text-dark'}`} to="/">
+              <NavLink className={({ isActive }) => `nav-link px-3 fw-semibold ${isActive ? 'text-orange' : 'text-dark'}`} to="/Sound-Beats">
                 Home
               </NavLink>
             </li>

@@ -15,17 +15,7 @@ const Footer = () => {
             <p className="footer-tagline">Premium Sound & Lighting</p>
           </div>
 
-          {/* Quick Links */}
-          <nav className="footer-nav d-none d-md-flex align-items-center">
-            <a href="#home" className="nav-item">Home</a>
-            <span className="dot">•</span>
-            <a href="#services" className="nav-item">Services</a>
-            <span className="dot">•</span>
-            <a href="#portfolio" className="nav-item">Portfolio</a>
-            <span className="dot">•</span>
-            <a href="#contact" className="nav-item">Contact</a>
-          </nav>
-
+        
           {/* Social Media Icons */}
           <div className="footer-socials d-flex gap-3">
             <a href="/" className="social-icon insta"><Instagram size={20} /></a>
